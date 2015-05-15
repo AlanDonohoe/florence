@@ -1,13 +1,13 @@
 {
     "hpub": 1,
-    "title": "A Study in Scarlet",
-    "author": ["Arthur Conan Doyle"],
-    "creator": ["D. Casali", "M. Colombo", "A. Morandi"],
-    "date": "1887-10-10",
-    "url": "book://bakerframework.com/newsstand-books/a-study-in-scarlet",
-    "cover": "a-study-in-scarlet.png",
+    "title": "Florence Nightingale",
+    "author": ["Hstorical Heroes"],
+    "creator": ["Free The Trees"],
+    "date": "16-5-2015",
+    "url": "",
+    "cover": "",
 
-    "orientation": "both",
+    "orientation": "portrait",
     "zoomable": false,
 
     "-baker-background": "#ffffff",
@@ -18,22 +18,5 @@
     "-baker-page-numbers-color": "#000000",
 
     "contents": [
-        "Book Cover.html",
-        "Book Index.html",
-        "Part1-01.html",
-        "Part1-02.html",
-        "Part1-03.html",
-        "Part1-04.html",
-        "Part1-05.html",
-        "Part1-06.html",
-        "Part1-07.html",
-        "Part2-01.html",
-        "Part2-02.html",
-        "Part2-03.html",
-        "Part2-04.html",
-        "Part2-05.html",
-        "Part2-06.html",
-        "Part2-07.html",
-        "Tail.html"
     ]
 }
