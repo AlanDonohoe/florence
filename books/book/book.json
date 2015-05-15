@@ -17,13 +17,13 @@
   "-baker-rendering": "three-cards",
 
   "contents": [
-    "cover.html",
-    "contents.html",
-    "1a.html",
-    "2a.html",
-    "3a.html",
-    "4a.html",
-    "5a.html",
-    "6a.html"
+    "pages/cover.html",
+    "pages/contents.html",
+    "pages/1a.html",
+    "pages/2a.html",
+    "pages/3a.html",
+    "pages/4a.html",
+    "pages/5a.html",
+    "pages/6a.html"
   ]
 }
