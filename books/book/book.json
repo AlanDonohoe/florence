@@ -1,0 +1,29 @@
+{
+  "hpub": 1,
+  "title": "Historical Heroes: Florence Nightingale",
+  "author": ["Free The Trees"],
+  "creator": ["Free The Trees"],
+  "date": "16-5-2015",
+  "url": "http://www.freethetrees.co.uk/",
+  "orientation": "portrait",
+  "zoomable": false,
+  "-baker-background": "#000000",
+  "-baker-vertical-bounce": false,
+  "-baker-index-height": 140,
+  "-baker-media-autoplay": true,
+  "-baker-background-image-portrait": "library_images/background-portrait.png",
+  "-baker-background-image-landscape": "library_images/background-landscape.png",
+  "-baker-page-numbers-color": "#333",
+  "-baker-rendering": "three-cards",
+
+  "contents": [
+    "cover.html",
+    "contents.html",
+    "1a.html",
+    "2a.html",
+    "3a.html",
+    "4a.html",
+    "5a.html",
+    "6a.html"
+  ]
+}
