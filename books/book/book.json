@@ -20,10 +20,19 @@
     "pages/cover.html",
     "pages/contents.html",
     "pages/1a.html",
+    "pages/1b.html",
+    "pages/1c.html",
     "pages/2a.html",
+    "pages/2b.html",
     "pages/3a.html",
+    "pages/3b.html",
     "pages/4a.html",
+    "pages/4b.html",
     "pages/5a.html",
-    "pages/6a.html"
+    "pages/5b.html",
+    "pages/6a.html",
+    "pages/6b.html",
+    "pages/7a.html",
+    "pages/7b.html"
   ]
 }
