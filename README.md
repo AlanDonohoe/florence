@@ -12,9 +12,9 @@ Contents
    * Chapter 2: Some Wait for Christmas; I Wait For Sleep. Crimea, December '54.
    * Chapter 3: As The Hospital Improves, So Do I. Crimea, Jan '55.
    * Chapter 4: Florence's Bedtime Stories. Crimea, June '55.
-   * Chapter 5: Back Home At Last, England, March '55.
-   * Chapter 5: A Limp and A Cough but I am on the Mend, March '55.
-   * Chapter 6: As yet untitled...
+   * Chapter 5: Back Home At Last. England, March '55.
+   * Chapter 5: A Limp and A Cough but I am on the Mend. England, March '55.
+   * Chapter 6: The End.. but not quite. 
 
 
 -------
