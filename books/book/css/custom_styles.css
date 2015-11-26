@@ -1,0 +1,33 @@
+
+body {
+	background-image: url(../images/lightpaperfibers.png);
+	background-repeat: repeat;
+}
+.content {
+	width: 90%;
+	margin-top: 80px;
+}
+
+.front-cover-img{
+	height:55%;
+	width:55%;
+}
+
+img.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.black-background{
+	background-color: black;
+}
+
+/* Start TYPOGRAPHY STYLES */
+
+/* End TYPOGRAPHY STYLES */
+
+
+/*START Time Line Styles*/
+
+/*END Time Line Styles*/
