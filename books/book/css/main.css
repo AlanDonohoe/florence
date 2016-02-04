@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.content {
+	width: 90%;
+	margin: 80px auto 0px auto;
+}
+
+.content p {
+	
+	font-family: 'alegreyaregular';
+	font-size:12px;
+	
+}
+
+body {
+	background-image: url(images/lightpaperfibers.png);
+	background-repeat: repeat;
+}
+.content {
+	width: 90%;
+	margin-top: 80px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="environment" content="gwd-genericad">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link href="../css/2head.css" rel="stylesheet">
+  <link href="gwdpage_style.css" data-version="8" data-exports-type="gwd-page" rel="stylesheet">
+  <link href="gwdimage_style.css" data-version="7" data-exports-type="gwd-image" rel="stylesheet">
+  <link href="gwdpagedeck_style.css" data-version="8" data-exports-type="gwd-pagedeck" rel="stylesheet">
+  <script data-source="../js/googbase_min.js" data-version="3" data-exports-type="googbase" type="text/javascript" src="../js/googbase_min.js"></script>
+  <script data-source="../js/gwd_webcomponents_min.js" data-version="4" data-exports-type="gwd_webcomponents" type="text/javascript" src="../js/gwd_webcomponents_min.js"></script>
+  <script data-source="../js/gwdpage_min.js" data-version="8" data-exports-type="gwd-page" type="text/javascript" src="../js/gwdpage_min.js"></script>
+  <script data-source="../js/gwdpagedeck_min.js" data-version="8" data-exports-type="gwd-pagedeck" type="text/javascript" src="../js/gwdpagedeck_min.js"></script>
+  <script data-source="../js/gwdgenericad_min.js" data-version="4" data-exports-type="gwd-genericad" type="text/javascript" src="../js/gwdgenericad_min.js"></script>
+  <script data-source="../js/gwdimage_min.js" data-version="7" data-exports-type="gwd-image" type="text/javascript" src="../js/gwdimage_min.js"></script>
+</head>
+
+<body>
+  <gwd-genericad id="gwd-ad">
+    <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck">
+      <div is="gwd-page" id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox" data-gwd-width="768px" data-gwd-height="1024px">
+        <div class="gwd-page-content gwd-page-size">
+          <img is="gwd-image" source="../images/lanternbg.jpg" id="bg" class="gwd-img-1nri" style="" data-gwd-tl-locked="">
+          <img is="gwd-image" source="../images/lanternoff.png" class="gwd-img-h6y6 gwd-gen-1sargwdanimation gwd-img-1eev" style="" id="lantern">
+          <img is="gwd-image" source="../images/lanternon.png" class="gwd-img-wjes gwd-gen-s2nbgwdanimation gwd-img-17s7" style="" id="lantern-on" data-gwd-tl-locked="">
+        </div>
+      </div>
+    </div>
+  </gwd-genericad>
+  <script type="text/javascript" id="gwd-init-code">
+    (function() {
+      var gwdAd = document.getElementById('gwd-ad');
+
+      /**
+       * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+       * fired when the document has been completely loaded and parsed.
+       */
+      function handleDomContentLoaded(event) {
+
+      }
+
+      /**
+       * Handles the WebComponentsReady event. This event is fired when all
+       * custom elements have been registered and upgraded.
+       */
+      function handleWebComponentsReady(event) {
+        // Start the Ad lifecycle.
+        setTimeout(function() {
+          gwdAd.initAd();
+        }, 0);
+      }
+
+      /**
+       * Handles the event that is dispatched after the Ad has been
+       * initialized and before the default page of the Ad is shown.
+       */
+      function handleAdInitialized(event) {}
+
+      window.addEventListener('DOMContentLoaded',
+        handleDomContentLoaded, false);
+      window.addEventListener('WebComponentsReady',
+        handleWebComponentsReady, false);
+      window.addEventListener('adinitialized',
+        handleAdInitialized, false);
+    })();
+  </script>
+</body>
+
+</html>
