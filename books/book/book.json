@@ -7,14 +7,14 @@
   "url": "http://www.freethetrees.co.uk/",
   "orientation": "portrait",
   "zoomable": false,
-  "-baker-background": "#000000",
+  "-baker-background": "#ffffff",
   "-baker-vertical-bounce": false,
   "-baker-index-height": 140,
   "-baker-media-autoplay": true,
   "-baker-background-image-portrait": "library_images/background-portrait.png",
   "-baker-background-image-landscape": "library_images/background-landscape.png",
   "-baker-page-numbers-color": "#333",
-  "-baker-rendering": "three-cards",
+  "-baker-rendering": "screenshots",
 
   "contents": [
     "pages/cover.html",
