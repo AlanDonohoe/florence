@@ -221,11 +221,12 @@
 .pnumber {
   position: absolute;
   bottom: 20px;
-  left: 49%;
+  left:50%;
+	transform: translate(-50%, 0);
 }
 
 .line-number {
-	font-family: 'bebasregular';
+	font-family: 'cooper_hewittbook', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -242,8 +243,8 @@
 	border-bottom: 1px solid #222222;
 }
 .line-number:before {
-	margin: 18px 0 0 -60px;
+	margin: 8px 0 0 -60px;
 }
 .line-number:after {
-	margin: 18px 0 0 20px;
+	margin: 8px 0 0 20px;
 }
