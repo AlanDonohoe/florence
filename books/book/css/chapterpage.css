@@ -50,13 +50,57 @@ h3 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
 
 
 .animquote {
-	font-family: "journalregular", serif;
-	font-size:48px;
+	font-family: "archisticonormal", serif;
+	font-size:38px;
 	line-height: 1.4em;
 	padding:0;
 	margin:20px;
+	width:670px;
+}
+
+
+@-webkit-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+text {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: draw 32s forwards;
+  -moz-animation: draw 32s forwards;
+  -o-animation: draw 32s forwards;
+  -ms-animation: draw 32s forwards;
+  animation: draw 32s forwards;
+	width:670px;
+	white-space: normal;
 	
-	}
+}
+@-webkit-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-moz-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-o-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-ms-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
 
 .container {
 	width:768px;
