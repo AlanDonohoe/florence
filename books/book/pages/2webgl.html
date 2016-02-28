@@ -13,14 +13,24 @@
     body {
 			overflow: hidden;
 			position: relative;
-			background: black;
+			background: grey;
 			color: white;
 			padding: 0;
 			margin: 0;
+
 		}
+		.shadow{
+			-moz-box-shadow:    inset 0 0 100px #000000;
+   -webkit-box-shadow: inset 0 0 100px #000000;
+   box-shadow:         inset 0 0 100px #000000;
+	 position:fixed;
+	 left:0;
+	 top:0;
+	 z-index:101;
+			}
   </style>
 
-  <title>360° panorama</title>
+  <title>360° Disorientation</title>
 
 <script type='text/javascript'>//<![CDATA[
 window.onload=function(){
@@ -50,8 +60,8 @@ var cube = new THREE.CSS3DObject( document.createElement('div') );
 for (var i = 0; i < sides.length; i ++) {
     var element = document.createElement('img');
     element.src = sides[i][0];
-    element.style.width = '800px';
-    element.style.height = '800px';
+    element.style.width = '512px';
+    element.style.height = '512px';
     
     var object = new THREE.CSS3DObject(element);
     object.position.set(
@@ -101,8 +111,7 @@ animate();
 </head>
 
 <body>
-  
-  
+  <div class="shadow"><h1>test text</h1></div>
 </body>
 
 </html>
