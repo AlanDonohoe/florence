@@ -11,8 +11,7 @@
 #slideshow img {
   max-width: none;
   position:absolute;
-  width:1536px;
-  height:2048px;
+ 
   top:0%;
   left:0%;
   margin-left:-80px;
@@ -55,10 +54,10 @@
 	z-index:-1;
 }
 #slideshow .fx {
-  -webkit-transform: scale(1.05) translate(10px);
-  -moz-transform: scale(1.05) translate(10px);
-  -o-transform: scale(1.05) translate(10px);
-  transform: scale(1.05) translate(10px);
+  -webkit-transform: scale(1.25) translate(30px);
+  -moz-transform: scale(1.25) translate(30px);
+  -o-transform: scale(1.25) translate(30px);
+  transform: scale(1.25) translate(30px);
   opacity:1;
 }
 
