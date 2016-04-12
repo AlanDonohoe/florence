@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.bubble1 
+{
+position: relative;
+margin: 0 0 16px -50px;
+width: 450px;
+height: 40px;
+padding: 18px;
+background: #C7EDED;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+font-size: 90%;
+}
+
+.bubble1:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 23px 14px 0;
+border-color: #C7EDED transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -23px;
+left: 45px;
+}
+
+.bubble2
+{
+position: relative;
+width: 450px;
+height: 80px;
+padding: 18px;
+background: #C7EDED;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+margin:0 0 16px 90px;
+-webkit-animation-delay: 0.30s;
+font-size: 90%;
+}
+
+.bubble2:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 23px 14px 0;
+border-color: #C7EDED transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -23px;
+right: 45px;
+}
+
+.bubble3 
+{
+position: relative;
+margin: 0 0 16px -50px;
+width: 450px;
+height: 80px;
+padding: 18px;
+background: #C7EDED;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+font-size: 90%;
+-webkit-animation-delay: .6s;
+}
+
+.bubble3:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 23px 14px 0;
+border-color: #C7EDED transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -23px;
+left: 45px;
+}
+
+.bubble4 
+{
+position: relative;
+margin:0 0 16px 90px;
+width: 450px;
+height: 80px;
+padding: 18px;
+background: #C7EDED;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+font-size: 90%;
+-webkit-animation-delay: .9s;
+}
+
+.bubble4:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 23px 14px 0;
+border-color: #C7EDED transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -23px;
+right: 45px;
+}
+
+.bubble5 
+{
+position: relative;
+margin: 0 0 24px -50px;
+width: 450px;
+height: 40px;
+padding: 18px;
+background: #C7EDED;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+font-size: 90%;
+-webkit-animation-delay: 1.2s;
+}
+
+.bubble5:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 23px 14px 0;
+border-color: #C7EDED transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -23px;
+left: 45px;
+}
+
+.author {
+	font-style:italic;
+	font-size: 80%;
+	text-align:right;
+	padding-top:8px;
+	}
+
