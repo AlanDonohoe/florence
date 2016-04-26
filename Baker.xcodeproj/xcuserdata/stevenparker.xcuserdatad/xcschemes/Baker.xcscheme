@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-               BuildableName = "Baker.app"
+               BuildableName = "Florence.app"
                BlueprintName = "Baker"
                ReferencedContainer = "container:Baker.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "Baker.app"
+            BuildableName = "Florence.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "Baker.app"
+            BuildableName = "Florence.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "Baker.app"
+            BuildableName = "Florence.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
