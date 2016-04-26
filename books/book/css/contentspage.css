@@ -1,11 +1,18 @@
+body {
+	margin:0;
+	padding:0;
+	width:768px;
+	}
  .container {
     font-family: 'pacificoregular';
     font-weight: 400;
     position: relative;
-    margin: 80px auto;
+    margin: 40px 0px;
     width: 768px;
-    font-size: 30px;
+		height:920px;
+    font-size: 24px;
     text-align: center;
+		padding:0;
   }
 
   span {
@@ -30,7 +37,7 @@
     font-family: 'crimson_textroman';
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 90px;
+    font-size: 80px;
     letter-spacing: 6px;
     margin: 0 0;
 		text-align:center;
@@ -41,7 +48,7 @@
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
-    margin: 70px 0 0;
+    margin: 40px 0 0 0;
     position: relative;
     letter-spacing: 6px;
   }
@@ -104,16 +111,17 @@
 
 	#doughnuts{
   	position: absolute;
-   	left: 80px; top: 450px;
+   	left: 140px; top: 450px;
 	}
 	
 	#labels {
 		position: absolute;
-   	left: 90px; top: 450px;
+   	left: 0px; top: 300px;
+		
 		}
 
  .doughnuts-out {
-    margin: 150px;
+    
     width: 500px;
     height: 500px;
     position: absolute;
@@ -126,7 +134,7 @@
     overflow: hidden;
 }
 .doughnuts-mid {
-    margin: 150px;
+    
     width: 450px;
     height: 450px;
     position: absolute;
@@ -140,7 +148,7 @@
     overflow: hidden;
 }
 .doughnuts-in {
-    margin: 150px;
+   
     width: 320px;
     height: 320px;
     position: absolute;
